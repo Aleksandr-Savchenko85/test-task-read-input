@@ -1,0 +1,138 @@
+
+*{
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to left, #4286f4, #373B44); 
+    margin: 0;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+     
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height: 80vh;
+    margin-top: 10px;
+   
+}
+
+.block{
+    width: 400px;
+    height: 140px;
+    background-color: black;
+    color: white;
+    margin: 7px;
+    border-radius: 10px;
+}
+.heading{
+    text-transform: uppercase;
+    margin-top: 10px;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 8px;
+    color: whitesmoke;
+}
+
+.text{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+input{
+    width: 400px;
+    height: 30px;
+    border-radius: 10px;
+    outline: none;
+}
+.btn{
+    width: 150px;
+    height: 30px;
+    border: none;
+    border-radius: 12px;
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    margin-top: 20px;
+    outline: none;
+}
+@media screen and (max-width: 900px){
+    .container{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 380px){
+    .container{
+        flex-direction: column;
+    }
+    .block{
+        width: 300px;
+    height: 100px;
+    }
+    input{
+        width: 300px;
+    }
+    .heading{
+        margin-top: 50px;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 411px){
+    .container{
+        flex-direction: column;
+    }
+    .block{
+        width: 300px;
+    height: 100px;
+    }
+    input{
+        width: 300px;
+    }
+    .heading{
+        margin-top: 120px;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 375px){
+    .container{
+        flex-direction: column;
+    }
+    .block{
+        width: 300px;
+    height: 100px;
+    }
+    input{
+        width: 300px;
+    }
+    .heading{
+        margin-top: 90px;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 320px){
+    .container{
+        flex-direction: column;
+    }
+    .block{
+        width: 300px;
+    height: 100px;
+    }
+    input{
+        width: 300px;
+    }
+    .heading{
+        margin-top: 170px;
+        text-align: center;
+    }
+}
+
+
